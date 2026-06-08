@@ -1,30 +1,20 @@
-package basics;
-
 import java.util.Scanner;
 
-public class Main {
+class Main {
 
     public static void main(String[] args) {
-        // System.out.println("Hello, world!");
-        // String currentUTF = System.getProperty("file.encoding");
-        // String mode = System.getProperty("mode");
+        // Create a Scanner object for taking input
+        Scanner scanner = new Scanner(System.in);
 
-        // System.out.println(currentUTF);
-        // System.out.println(mode);
+        // Take integer input from the user
+        int number = scanner.nextInt();
 
-        // Create a Scanner object to read input
-        Scanner in = new Scanner(System.in);
+        // Use a simple way to determine if the number is even or odd.
+        // If it's even, print true, otherwise, print false
 
-        // Read the next integer
-        int n = in.nextInt();
+        // Write your code here
+        boolean isEven = (number % 2) == 0;
 
-        // Compute and print the square of n
-        System.out.println(n * n);
-        // Compute and print the cube of n
-        System.out.println(n * n * n);
-        // Compute and print the fourth power of n
-        System.out.println(n * n * n * n);
-
-        in.close();
+        System.out.println(isEven);
     }
 }
