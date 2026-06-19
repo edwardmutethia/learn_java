@@ -4,16 +4,10 @@
  */
 package Arrays;
 
-import java.util.Arrays;
-
 public class Main {
-    static void main(String[] args) {
-        String[] cars = {"Volvo", "BMW", "Mazda", "Ford"};
 
-        int[] myNum = {1,2,3,4,5,6};
-
-        System.out.println(Arrays.toString(cars));
-        System.out.println(Arrays.toString(myNum));
-        System.out.println(myNum.length);
+    public static void main(String[] args) {
+        System.out.println(args[0]);
+        System.out.println(args[1]);
     }
 }
