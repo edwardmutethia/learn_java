@@ -23,5 +23,7 @@ public class LearnArrays {
 
         System.out.println(Arrays.toString(array));
         System.out.println("Sum of the elements: " + sum);
+
+        scanner.close();
     }
 }
