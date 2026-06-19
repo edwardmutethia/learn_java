@@ -9,7 +9,6 @@ public class LearnArrays {
         Scanner scanner = new Scanner(System.in);
         
         int sum = 0;
-        double average;
 
         System.out.print("Size of the Array: ");
         int len = scanner.nextInt();

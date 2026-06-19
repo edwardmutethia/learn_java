@@ -13,5 +13,7 @@ public class AreaOfTriangle {
 
         double area = (base * height) / 2;
         System.out.println(area);
+
+        sc.close();
     }
 }

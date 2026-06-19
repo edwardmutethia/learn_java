@@ -1,7 +1,5 @@
 package Arrays;
 
-import java.util.Arrays;
-
 public class Dimensional {
     static void main(String[] args) {
         int[][] matrix = {

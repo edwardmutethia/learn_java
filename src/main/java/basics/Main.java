@@ -1,3 +1,5 @@
+package basics;
+
 import java.util.Scanner;
 
 class Main {
@@ -16,5 +18,7 @@ class Main {
         boolean isEven = (number % 2) == 0;
 
         System.out.println(isEven);
+
+        scanner.close();
     }
 }
