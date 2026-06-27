@@ -18,5 +18,7 @@ class Main {
         };
 
         System.out.println(temperature);
+
+        scanner.close();
     }
 }
